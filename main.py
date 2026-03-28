@@ -1,7 +1,7 @@
 import streamlit as st
 from model import analyze_resume
 
-st.title("📄 Smart Resume Analyzer (SkillLens)")
+st.title("Hire Sense")
 
 resume = st.text_area("Paste your Resume")
 job_desc = st.text_area("Paste Job Description")
