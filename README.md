@@ -35,10 +35,15 @@ Cosine Similarity: For matching resume and job description
 The project is divided into six files for better modularity:
 
 main.py is the entry point of the application.
+
 model.py handles the overall processing logic.
+
 preprocess.py is used for cleaning and preparing text data.
+
 similarity.py calculates the similarity score.
+
 suggestions.py generates improvement suggestions.
+
 vectorizer.py converts text into numerical vectors using TF-IDF.
 ### 5. Detailed Installation Instructions
 First, make sure Python is installed by checking the version in the terminal.
